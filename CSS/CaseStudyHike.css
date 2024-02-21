@@ -381,15 +381,15 @@ nav .navbar-nav li a{
 }
 
 .font_16pt{
-    font-size: 16pt;
+    font-size: 26pt;
 }
 
 .font_12pt{
-    font-size: 12pt;
+    font-size: 18pt;
 }
 
 .fontB-12pt{
-    font-size: 12pt;
+    font-size: 18pt;
     font-weight: 800;
 }
 
@@ -400,6 +400,13 @@ nav .navbar-nav li a{
 
 .style_Guide_Logo img, .style_guide_colors img, .style_gude_icons img, .User_test_matrix img{
     width: 100%;
+ }
+
+ .style_gude_icons{
+    display: block;
+    margin-left: 55px;
+    margin-top: 25%;
+
  }
 
 .phone_vid{
@@ -487,6 +494,7 @@ nav .navbar-nav li a{
         top: 3100px;
     }
 
+
     @media only screen and (max-width: 1199px){
         .green_circle_left2{
             margin-left: -500px;
@@ -497,7 +505,70 @@ nav .navbar-nav li a{
 
 }
 
+@media only screen and (max-width: 767px){
+    .trail_animate_img1{
+        width: 200%;
+        margin-top: -20px;    
+}
 
+    .trail_animate_img2{
+        margin-top: 245px;
+        margin-left: 70%;
+    }
+
+    .trail_animate_img2 img{
+        width: 280px;
+    }
+
+    .path_animate3_container{
+        position: absolute;
+        height: 500px;
+        margin-top: -1023px;
+        left: 73%;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+   
+    .section2_info h1{
+        font-size: 4em;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+   
+    .ux_case_study_green{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .phone_img_hero{
+        margin-top: 10px;
+        margin-bottom: 0px;
+     }
+
+     .phone_img_hero img{
+        width: 120%;
+        margin-left: -20px;
+     }
+
+     .trail_animate_img1{
+        width: 270%;
+        margin-top: -20px;  
+        margin-left: 0px;  
+    }
+
+    .tools_icon_container{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .tools_icon_container img{
+        width: 25%;
+    }
+
+}
 
 
 
