@@ -665,6 +665,15 @@ footer h3{
     
      }
 
+     .phone_vid{
+        width: 100%;
+        margin-bottom: 0px;
+     }
+
+     .hike_bttn{
+        margin-bottom: 100px;
+     }
+
      footer {
         height: 150px;
     }
