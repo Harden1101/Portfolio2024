@@ -10,7 +10,6 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
   
 }
 
@@ -438,6 +437,16 @@ nav .navbar-nav li a{
 }
 
 @media only screen and (max-width: 1199px){
+   .ux_case_study_green{
+    margin-top: 10px;
+   }
+   
+    .ux_case_study_green p{
+        font-size: 18pt;
+        line-height: 37px;
+    }
+    
+    
     .green_circle_left2{
         margin-left: -500px;
         top: 6950px;
@@ -446,6 +455,7 @@ nav .navbar-nav li a{
 }
 
 @media only screen and (max-width: 1140px){
+ 
     .trail_animate_img1{
             width: 100%;
             margin-top: 15px;
@@ -470,6 +480,16 @@ nav .navbar-nav li a{
 }
 
 @media only screen and (max-width: 992px){
+    .ux_case_study_green{
+        margin-top: 20px;
+       }
+       
+        .ux_case_study_green p{
+            font-size: 13pt;
+            line-height: 37px;
+        }
+        
+    
     .trail_animate_img1{
             width: 130%;
             margin-top: 0px;
@@ -506,6 +526,16 @@ nav .navbar-nav li a{
 }
 
 @media only screen and (max-width: 767px){
+    .ux_case_study_green{
+        margin-top: 10px;
+       }
+       
+        .ux_case_study_green p{
+            font-size: 20pt;
+            line-height: 37px;
+        }
+        
+
     .trail_animate_img1{
         width: 200%;
         margin-top: -20px;    
@@ -537,6 +567,15 @@ nav .navbar-nav li a{
 }
 
 @media only screen and (max-width: 414px){
+    .ux_case_study_green{
+        margin-top: 10px;
+       }
+       
+        .ux_case_study_green p{
+            font-size: 18pt;
+            line-height: 37px;
+        }
+        
    
     .section2_info h1{
         font-size: 3em;
