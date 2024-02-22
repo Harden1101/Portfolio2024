@@ -427,6 +427,78 @@ nav .navbar-nav li a{
     
 }
 
+/* Footer section */
+
+
+footer {
+    background-color: #174655;
+    text-align: center;
+   
+}
+
+#footer_container{
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer h3{
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+}
+
+.footer_logo_container {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.footer_FB {
+    display: inline-block;
+    background-image: url(../Images/FB_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ 
+    
+}
+
+.footer_linkedIn {
+    display: inline-block;
+    background-image: url(../Images/Linkedin_icon.png);
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+    margin-left:  10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.footer_Behnce {
+    display: inline-block;
+    background-image: url(../Images/Behance_icon.png);
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left:  15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
 /* Break point setions */
 
 @media only screen and (min-width: 1880px){
@@ -564,6 +636,22 @@ nav .navbar-nav li a{
     
      }
 
+     footer {
+        background-color: #174655;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+       
+    }
+
+    footer h3{
+        line-height: 25px;
+    }
+
+    .footer_logo_container {
+        margin-top: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 414px){
@@ -632,6 +720,72 @@ nav .navbar-nav li a{
     
      }
 
+     footer {
+        background-color: #174655;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+       
+    }
+
+    .input_group{
+        margin-bottom: 15px;
+    }
+
+    footer h3{
+        display: inline-block;
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+        color: white;
+    }
+    
+    .footer_logo_container {
+        display: block;
+        margin-right: 0px;
+        float: none;
+        margin-top: 15px;
+    }
+    
+    .footer_FB {
+        display: inline-block;
+        background-image: url(../Images/FB_icon.png);
+        height: 30px;
+        width: 40px;
+        margin-top: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+     
+        
+    }
+    
+    .footer_linkedIn {
+        display: inline-block;
+        background-image: url(../Images/Linkedin_icon.png);
+        height: 30px;
+        width: 40px;
+        margin-top: 5px;
+        margin-left:  10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+    }
+    
+    .footer_Behnce {
+        display: inline-block;
+        background-image: url(../Images/Behance_icon.png);
+        height: 30px;
+        width: 70px;
+        margin-top: 5px;
+        margin-left:  15px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+    }
+
 }
 
 @media only screen and (min-width: 330px){
@@ -642,6 +796,72 @@ nav .navbar-nav li a{
         .ux_case_study_green p{
             font-size: 15pt;
             line-height: 37px;
+        }
+
+        footer {
+            background-color: #174655;
+            text-align: center;
+            height: 150px;
+            width: 100%;
+           
+        }
+    
+        .input_group{
+            margin-bottom: 15px;
+        }
+    
+        footer h3{
+            display: inline-block;
+            width: 100%;
+            font-size: 16px;
+            line-height: 25px;
+            color: white;
+        }
+        
+        .footer_logo_container {
+            display: block;
+            margin-right: 0px;
+            float: none;
+            margin-top: 15px;
+        }
+        
+        .footer_FB {
+            display: inline-block;
+            background-image: url(../Images/FB_icon.png);
+            height: 30px;
+            width: 40px;
+            margin-top: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+         
+            
+        }
+        
+        .footer_linkedIn {
+            display: inline-block;
+            background-image: url(../Images/Linkedin_icon.png);
+            height: 30px;
+            width: 40px;
+            margin-top: 5px;
+            margin-left:  10px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            
+        }
+        
+        .footer_Behnce {
+            display: inline-block;
+            background-image: url(../Images/Behance_icon.png);
+            height: 30px;
+            width: 70px;
+            margin-top: 5px;
+            margin-left:  15px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            
         }
         
 
