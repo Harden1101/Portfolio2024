@@ -25,6 +25,10 @@ p {
 
 /*  Navigation section  */
 
+.navbar{
+    background-color: white;
+}
+
 .nav-item{
     display: inline-block;
 }
@@ -541,6 +545,10 @@ position: relative;
     
 }
 
+.BCK_bttn a{
+    color: #174655;
+}
+
 .bck_img_cards{
     display: flex;
     width: 100%;
@@ -960,6 +968,10 @@ position: relative;
     left: 80%;
     rotate: 30deg;
    
+}
+
+.hike_bttn a{
+    color: white;
 }
 
 .hike_restack_bttn { 

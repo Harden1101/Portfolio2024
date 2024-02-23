@@ -34,7 +34,9 @@ section{
 
 /*  Navigation section  */
 
-
+.navbar{
+    background-color: #acdffc;
+}
 
 .nav-item{
     display: inline-block;
