@@ -419,16 +419,20 @@ nav .navbar-nav li a{
 
 .hike_bttn{
     all: unset;
+    display: block;
     background-color: #21847F;
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     color: white !important;
-    margin-left: 40%;
+    margin: 20px auto;
     margin-bottom: 100px;
     
 }
 
+button a{
+    color: #FFFDF7;
+}
 
 /* Footer section */
 
@@ -529,6 +533,10 @@ footer h3{
         top: 6950px;
       
     }
+
+    .phone_vid{
+        margin-top: 150px;
+    }
 }
 
 @media only screen and (max-width: 1140px){
@@ -623,8 +631,14 @@ footer h3{
         }
     }
 
-   
+    .phone_vid{
+        margin-top: 350px;
+    }
+
 }
+
+   
+
 
 @media only screen and (max-width: 767px){
     .ux_case_study_green{
@@ -668,6 +682,7 @@ footer h3{
      .phone_vid{
         width: 100%;
         margin-bottom: 0px;
+        margin-top: 0px;
      }
 
      .hike_bttn{
